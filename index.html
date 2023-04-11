@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Copiar elementos con fecha y hora automática</title>
+</head>
+
+<body>
+    <h1>Título del formulario</h1>
+    <div id="elementos">
+        <form>
+            <label for="asesor" class="asesor">Asesor:</label>
+        <br>
+            <input type="text" id="asesor" name="asesor" required placeholder="Escribir Nombre del Asesor">
+        <br>
+        </div>
+            <label for="campanadid" class="campanadid">Campaña DID:</label>
+        <br>
+            <input type="tel" id="campanadid" name="campanadid" required placeholder="Escribir Campaña DID">
+        <br>
+            <label for="lead" class="lead">Lead:</label>
+        <br>
+            <input type="tel" id="lead" name="lead" required placeholder="Escribir Lead">
+        <br>
+            <label for="telefono" class="telefono">Telefono:</label>
+        <br>
+            <input type="tel" id="telefono" name="telefono" required placeholder="Escribir Telefono">
+        <br>
+            <label for="fecha" class="fecha">Fecha:</label>
+        <br>
+            <input type="text" id="fecha" readonly>
+        <br>
+            <label for="hora" class="hora">Hora:</label>
+        <br>
+            <input type="text" id="hora" readonly>
+        <br>
+            <label for="marcacion" class="marcacion">Marcacion:</label>
+        <br>
+            <input type="text" id="marcacion" name="marcacion" required placeholder="Escribir ">
+        <br>    
+            <label for="comentario_1" class="comentario_1">1er Comentario:</label>
+        <br>
+            <input type="text" id="comentario_1" name="comentario_1" required placeholder="Escribir Comentario">
+        <br>
+            <label for="comentario_2" class="comentario_2">2do Comentario:</label>
+        <br>
+            <input type="text" id="comentario_2" name="comentario_2" required placeholder="Escribir Comentario">
+        <br>
+            <label for="comentario_3" class="comentario_3">3er Comentario:</label>
+        <br>
+            <input type="text" id="comentario_3" name="comentario_3" required placeholder="Escribir Comentario">
+        
+        
+            <br><br>
+            <button class="botton1" type="button" onclick="copiar()">Copiar</button>
+        </form>
+    
+<script src="script.js"></script>
+</body>
+
+</html>
